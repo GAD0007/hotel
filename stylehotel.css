@@ -88,7 +88,7 @@ span.line2{
 .floop{
     position: sticky;
     top: 40px;
-    z-index: 20;
+    z-index: 999;
 }
 
 .bigi{
@@ -152,6 +152,22 @@ figure.boxes{
     height: auto;
    
 }
+.imgwrap{
+    display: block;
+}
+.imgwrap:hover {
+    background-color: black;
+    transition: 0.2s;
+
+}
+.rooms{
+    z-index: 10;
+  
+}
+.rooms:hover {
+    opacity: 0.5;
+    transition: 0.4s;
+}
 
 .discount-container{
     position: absolute;
@@ -164,12 +180,14 @@ figure.boxes{
     color: white;
     width: 10rem;
     padding: 4px;
+    z-index: 20;
 }
 p.hotel-location{
     border-right: 1px solid rgb(161, 161, 161);
     border-left: 1px solid rgb(161, 161, 161);
     border-bottom: 1px solid rgb(161, 161, 161);
     color: #47a9ff;
+    background-color: white;
 }
 .state{
     color: rgb(46, 46, 46);
