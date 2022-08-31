@@ -150,23 +150,27 @@ figure.boxes{
 .img-fluid{
     width: 100%;
     height: auto;
+    border-radius: 10px 10px 0px 0px;
    
 }
 .imgwrap{
     display: block;
+    border-radius: 10px 10px 0px 0px;
+    transition: 0.4s ease-in-out
 }
 .imgwrap:hover {
-    background-color: black;
-    transition: 0.2s;
+    background-color: rgb(53, 53, 53);
+    
 
 }
 .rooms{
     z-index: 10;
+    transition: 0.6s ease-in-out
   
 }
 .rooms:hover {
     opacity: 0.5;
-    transition: 0.4s;
+   
 }
 
 .discount-container{
@@ -183,14 +187,20 @@ figure.boxes{
     z-index: 20;
 }
 p.hotel-location{
-    border-right: 1px solid rgb(161, 161, 161);
-    border-left: 1px solid rgb(161, 161, 161);
-    border-bottom: 1px solid rgb(161, 161, 161);
+    border-right: 1px solid rgb(185, 185, 185);
+    border-left:  1px solid rgb(185, 185, 185);
+    border-bottom:  1px solid rgb(185, 185, 185);
     color: #47a9ff;
     background-color: white;
 }
 .state{
     color: rgb(46, 46, 46);
+}
+.city{
+    width: 100%;
+}
+.cities{
+    margin: 2rem 10rem;
 }
 @media screen and (max-width: 1199px) {
     .search{
@@ -204,7 +214,9 @@ p.hotel-location{
           .suites{
             margin: 4vh 2vh;
         }
-       
+        .cities{
+            margin: 2rem 10rem;
+        }
 }
 @media screen and (max-width: 991px) {
 
