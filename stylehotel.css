@@ -182,7 +182,7 @@ figure.boxes{
 }
 .discount{
     position: relative;
-    top: 10px;
+    top: 12px;
     right: 10px;
     background-color:rgb(255, 132, 0);
     color: white;
@@ -197,7 +197,7 @@ figure.boxes{
     display: block;
     width: 10px;
     height: 10px;
-    background-color:rgba(255, 132, 0, 0.579);
+    background-color:rgba(255, 132, 0, 0.805);
     position: absolute;
     top: 25px;
     left:0px;
@@ -227,6 +227,31 @@ p.hotel-location{
 }
 .cities{
     margin: 2rem 10rem;
+}
+.information-container{
+    position: absolute;
+}
+.information{ 
+    position: relative;
+     z-index: 1000;
+    color: white;
+    top: 80px;
+    left: 120px;
+}
+.information1{ 
+    position: relative;
+     z-index: 1000;
+    color: white;
+    top: 80px;
+    left: 60px;
+}
+.numhotel{font-weight:400;
+font-size: x-large;
+
+}
+.hotell-location{font-weight: bolder;
+    font-size: x-large;
+
 }
 @media screen and (max-width: 1199px) {
     .search{
