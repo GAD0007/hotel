@@ -225,6 +225,19 @@ p.hotel-location{
 .cities{
     margin: 2rem 10rem;
 }
+
+.imgwrap{
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+    transition: 0.4s ease-in-out;
+    background-color: rgb(53, 53, 53);
+    position: relative;
+   
+    
+    
+   
+    
+}
 .information-container{
     color: white;
     background-color: black;
@@ -260,25 +273,14 @@ p.hotel-location{
     z-index: 1;
     opacity: 0.8;
     visibility: hidden;
-    transition: .2s;
+    transition: .5s;
     transform-origin: bottom;
     transform: scaleY(0);
    
    
    
 }
-.imgwrap{
-    display: block;
-    border-radius: 10px 10px 0px 0px;
-    transition: 0.4s ease-in-out;
-    background-color: rgb(53, 53, 53);
-    position: relative;
-   
-    
-    
-   
-    
-}
+
 
 .imgwrap:hover .btn-background{
     visibility: visible;
@@ -297,10 +299,10 @@ p.hotel-location{
     background-color: rgb(30, 30, 30);
     opacity: 0,7;
     border: 2px solid #ffffff;
-    
-  
+    transition: 0.2s;
+}
+.btn-itself:hover{
 
-  
 }
 
 
@@ -311,6 +313,11 @@ font-size: x-large;
 .hotell-location{font-weight: bolder;
     font-size: x-large;
 
+}
+.other-hotels{
+    margin: 0rem 1rem;
+  
+    
 }
 
 
@@ -330,6 +337,7 @@ font-size: x-large;
         .cities{
             margin: 2rem 5rem;
         }
+       
 }
 @media screen and (max-width: 991px) {
     .cities{
@@ -397,6 +405,9 @@ font-size: x-large;
        .navbar-toggler{
     }
     span.line2{
+        display: none;
+    }
+    .other-hotels{
         display: none;
     }
  
