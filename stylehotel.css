@@ -67,8 +67,8 @@ span.line2{
     padding-top: 100px;
 }
 .search{
-    padding: 30px 150px ;
-    margin: 0px 150px;
+    padding: 2rem 6rem ;
+    margin: 0rem 6rem;
     background-color: white;
     position: relative;
     bottom: 50px;
@@ -114,7 +114,7 @@ section.C {
 }
 
 figure.boxes{
-    margin: 3rem 0rem;
+    margin: 3rem 3rem;
 }
 
 .box{
@@ -315,10 +315,11 @@ font-size: x-large;
 
 }
 .other-hotels{
-    margin: 0rem 1rem;
+    margin: 0rem 8rem;
   
     
 }
+
 
 
 
@@ -336,6 +337,11 @@ font-size: x-large;
         }
         .cities{
             margin: 2rem 5rem;
+        }
+        .other-hotels{
+            margin: 0rem 1rem;
+          
+            
         }
        
 }
@@ -409,6 +415,11 @@ font-size: x-large;
     }
     .other-hotels{
         display: none;
+    }
+    .other-hotels{
+        display: none;
+      
+        
     }
  
 
