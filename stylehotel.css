@@ -349,7 +349,7 @@ p.hotel-location{
 }
 section.subscriber-details{
     background-color: rgba(233, 233, 233, 0.858);
-    padding: 3rem 0rem;
+    padding: 5rem 0rem;
 }
 .subscriber-input-details{
    
@@ -371,7 +371,15 @@ section.subscriber-details{
 .sponsor-header{
     margin: 5rem 0rem 1rem 0rem;
 }
+.sponsors {
+   
+    
+}
 
+.logo{
+   max-width: 150px;
+min-height: 40px
+}
 
 
 @media screen and (max-width: 1199px) {
@@ -449,6 +457,10 @@ section.subscriber-details{
     position: relative;
     bottom: 4px;
   }
+  .sponsors{
+    margin: 0rem 4rem;
+    
+}
   
   }
     
@@ -468,11 +480,9 @@ section.subscriber-details{
     .other-hotels{
         display: none;
     }
-    .other-hotels{
+     .sponsors{
         display: none;
-      
-        
-    }
+     }
    
  
 
