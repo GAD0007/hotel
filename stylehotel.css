@@ -76,7 +76,7 @@ span.line2{
     }
 
     .form-control{
-        border: 1px solid #47a9ff;;
+        border: 1px solid rgba(115, 115, 115, 0.858);
     }
 
     .searchbtn{
@@ -84,7 +84,11 @@ span.line2{
         border-radius: 5px;
         border: 0px;
         padding: 7px 20px;
-        width: 80px;
+        width: 10rem;
+     }
+     .searchbtn:hover{
+        background-color: #0086fb;
+
      }
 
 .floop{
@@ -112,6 +116,14 @@ section.C {
 .control{
     margin-bottom: 40px;
 }
+h6{
+    font-size:25px;
+    color: rgb(65, 65, 65);
+}
+p.space{
+    font-size: 20px;
+    color: rgb(65, 65, 65);
+}
 
 figure.boxes{
     margin: 3rem 3rem;
@@ -120,30 +132,35 @@ figure.boxes{
 .box{
     border: 2px solid #47a9ff;
     border-radius: 5px;
-    transition: all;
+    transition: 0.5s ease-in-out;
 }
 
 .box:hover .suggestion {
     color: white;
+    transition: 0.2s ease-in-out;
 }
 
 .box:hover .num{
     color: white;
+    transition:0.2s  linear;
 }
 
 .box:hover{
     background-color: #47a9ff;
-    transition: 0.2s;
 }
 
 .suggestion {
     color: #47a9ff;
+    font-size: 20px;
+    font-weight:600
 }
 
 
 .num {
     margin: 0px 20px;
-    color: black;
+    color: rgb(108, 108, 108);
+    font-size: 17px;
+    font-weight: lighter;
 }
 .suites{
     margin: 3vh  25vh;
@@ -211,9 +228,16 @@ p.hotel-location{
     border-bottom:  1px solid rgb(185, 185, 185);
     color: #47a9ff;
     background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 10px;
 }
 .state{
-    color: rgb(46, 46, 46);
+    color: rgb(108, 108, 108);
+    font-weight: 250;
+    font-size:17px;
+    font-family:'Times New Roman', Times, serif;
+    
 }
 
 .city{
@@ -306,8 +330,9 @@ p.hotel-location{
 }
 
 
-.numhotel{font-weight:400;
-font-size: x-large;
+.numhotel{
+    font-weight:400;
+    font-size: x-large;
 }
 
 .hotell-location{font-weight: bolder;
@@ -319,7 +344,33 @@ font-size: x-large;
   
     
 }
-
+.diff{
+    margin:1rem 0rem 6rem 0rem;
+}
+section.subscriber-details{
+    background-color: rgba(233, 233, 233, 0.858);
+    padding: 3rem 0rem;
+}
+.subscriber-input-details{
+   
+}
+.form-control1{
+    width: 67%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid rgba(115, 115, 115, 0.858); 
+}
+.subscription-button{
+    color: white;
+    width: 45%;
+    height: 2.5rem;
+    background-color: #47a9ff;
+    border-radius: 5px;
+    border: 1px solid #47a9ff;
+}
+.sponsor-header{
+    margin: 5rem 0rem 1rem 0rem;
+}
 
 
 
@@ -398,6 +449,7 @@ font-size: x-large;
     position: relative;
     bottom: 4px;
   }
+  
   }
     
     @media screen and (max-width: 772px) {
@@ -421,6 +473,7 @@ font-size: x-large;
       
         
     }
+   
  
 
 }
@@ -449,7 +502,6 @@ font-size: x-large;
             background-size: cover;
         
         }
-     
     }
 
 @media screen and (max-width: 625px) {
@@ -460,7 +512,7 @@ font-size: x-large;
       left: 65px;
       height: 70px;
     }
-
+    
 }
 
 .brand{
