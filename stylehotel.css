@@ -371,7 +371,7 @@ section.subscriber-details{
 .sponsor-header{
     margin: 5rem 0rem 1rem 0rem;
 }
-.sponsors {
+.sponsors {margin: 0rem 0rem 6rem 0rem;
    
     
 }
@@ -379,6 +379,15 @@ section.subscriber-details{
 .logo{
    max-width: 150px;
 min-height: 40px
+}
+.subscription-button2{
+    color: white;
+    width: 15%;
+    height: 2.5rem;
+    background-color: #47a9ff;
+    border-radius: 5px;
+    border: 1px solid #47a9ff;
+    margin: 1rem 0rem;
 }
 
 
