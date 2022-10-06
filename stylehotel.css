@@ -1,6 +1,7 @@
 body{
     width: 100%;
     overflow-x: hidden;
+    
 }
 section.A{background: rgba(73, 72, 72, 0.7) url("./img/vvv.jpg" ) ;
     background-repeat: no-repeat;
@@ -163,7 +164,7 @@ figure.boxes{
     font-weight: lighter;
 }
 .suites{
-    margin: 3vh  25vh;
+    margin: 5rem 15rem;
 }
 
 .img-fluid{
@@ -362,9 +363,17 @@ section.subscriber-details{
 }
 .subscription-button{
     color: white;
-    width: 45%;
+    min-width: 45%;
     height: 2.5rem;
     background-color: #47a9ff;
+    border-radius: 5px;
+    border: 1px solid #47a9ff;
+}
+.subscription-button:hover{
+    color: white;
+    width: 45%;
+    height: 2.5rem;
+    background-color: #0086fb;
     border-radius: 5px;
     border: 1px solid #47a9ff;
 }
@@ -380,14 +389,35 @@ section.subscriber-details{
    max-width: 150px;
 min-height: 40px
 }
+.book-hotel{
+    margin: 5rem 0rem;
+
+}
 .subscription-button2{
     color: white;
-    width: 15%;
+    min-width: 15%;
     height: 2.5rem;
     background-color: #47a9ff;
     border-radius: 5px;
     border: 1px solid #47a9ff;
     margin: 1rem 0rem;
+    transition: 0.5s;
+}
+.subscription-button2:hover{
+    color: white;
+    width: 15%;
+    height: 2.5rem;
+    background-color: #0086fb;
+    border-radius: 5px;
+    border: 1px solid #47a9ff;
+    margin: 1rem 0rem;
+}
+.app{margin:;
+    
+}
+.google-play-pic{
+    max-width: 170px;
+    max-height: 60px;
 }
 
 
