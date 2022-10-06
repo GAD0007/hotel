@@ -1,6 +1,6 @@
 body{
     width: 100%;
-    overflow-x: hidden;
+    overflow-x: ;
     
 }
 section.A{background: rgba(73, 72, 72, 0.7) url("./img/vvv.jpg" ) ;
@@ -418,6 +418,13 @@ min-height: 40px
 .google-play-pic{
     max-width: 170px;
     max-height: 60px;
+}
+.deals{
+background-color: rgb(10, 10, 136);
+}
+.input-group{
+    border: 1px solid green;
+   
 }
 
 
