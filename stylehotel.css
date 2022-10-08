@@ -412,9 +412,32 @@ min-height: 40px
     border: 1px solid #47a9ff;
     margin: 1rem 0rem;
 }
-.app{margin:;
+.app{max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-color: rgb(239, 248, 251);;
+}
+
+.bab{
+    border: 1px solid green;
     
 }
+
+.app-details{
+         font-size:4vw;
+         color: #47a9ff;
+}
+.android{
+    font-weight:lighter;
+    font-size: large;
+  
+}
+.download{
+    font-weight: bold;
+    font-size: 1.5vw;
+    color:  rgb(86, 86, 86);
+}
+
 .google-play-pic{
     max-width: 170px;
     max-height: 60px;
@@ -458,6 +481,23 @@ background-color:rgb(8, 68, 130);
     border:#47a9ff;
     border-radius: 5px;
     color: white;
+}
+.line-line{
+    border-top: 1px solid rgb(159, 167, 173);
+    border-bottom: 1px solid rgb(159, 167, 173);
+    line-height: 0.7;
+    padding-top: 7px;
+}
+.footer{
+    margin: 2rem 6rem;
+}
+.shortcut > div {
+    color: rgb(86, 86, 86); 
+    font-size: small;
+}
+.shortcut-2  a{
+    font-size: small;
+    text-decoration: none;
 }
 
 
@@ -541,6 +581,15 @@ background-color:rgb(8, 68, 130);
     margin: 0rem 4rem;
     
 }
+.app-details{
+    font-size:35px;
+}
+
+.download{
+font-weight: bold;
+font-size: 22px;
+}
+
   
   }
     
@@ -561,6 +610,9 @@ background-color:rgb(8, 68, 130);
         display: none;
     }
      .sponsors{
+        display: none;
+     }
+     .deals{
         display: none;
      }
    
