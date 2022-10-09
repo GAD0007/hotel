@@ -1,6 +1,6 @@
 body{
     width: 100%;
-    overflow-x: ;
+    overflow-x: hidden;
     
 }
 section.A{background: rgba(73, 72, 72, 0.7) url("./img/vvv.jpg" ) ;
@@ -390,7 +390,7 @@ section.subscriber-details{
 min-height: 40px
 }
 .book-hotel{
-    margin: 5rem 0rem;
+    margin: 6rem 0rem;
 
 }
 .subscription-button2{
@@ -415,7 +415,7 @@ min-height: 40px
 .app{max-width: 100%;
     height: auto;
     object-fit: cover;
-    background-color: rgb(239, 248, 251);;
+    background-color: rgb(239, 248, 251);
 }
 
 .bab{
@@ -485,11 +485,14 @@ background-color:rgb(8, 68, 130);
 .line-line{
     border-top: 1px solid rgb(159, 167, 173);
     border-bottom: 1px solid rgb(159, 167, 173);
-    line-height: 0.7;
+    line-height: 1;
     padding-top: 7px;
+    margin-bottom: 2rem;
+   
 }
 .footer{
-    margin: 2rem 6rem;
+    margin: 1.2rem 6rem;
+    
 }
 .shortcut > div {
     color: rgb(86, 86, 86); 
@@ -498,6 +501,25 @@ background-color:rgb(8, 68, 130);
 .shortcut-2  a{
     font-size: small;
     text-decoration: none;
+    font-weight:500;
+    color: #47a9ff;
+}
+p.copy{
+    margin-top: 10px;
+    color: rgb(86, 86, 86);
+    font-size: small;
+}
+p.certified{
+    color: rgb(86, 86, 86);
+    font-size: small;
+}
+.footer-invisible{
+    background-color: rgb(8, 68, 130);
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    display: none;
+
 }
 
 
@@ -589,6 +611,9 @@ background-color:rgb(8, 68, 130);
 font-weight: bold;
 font-size: 22px;
 }
+.footer{
+    margin: 2rem 1rem;
+}
 
   
   }
@@ -615,6 +640,16 @@ font-size: 22px;
      .deals{
         display: none;
      }
+     .footer{
+        display: none;
+    }
+    .footer-invisible{
+        background-color: rgb(8, 68, 130);
+        color: white;
+        font-size: large;
+        font-weight:600;
+        display:flex;
+    }
    
  
 
