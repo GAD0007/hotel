@@ -80,6 +80,11 @@ span.line2{
         border: 1px solid rgba(115, 115, 115, 0.858);
     }
 
+    .form-control:focus {
+        outline: none !important;
+        box-shadow: none;
+    }
+
     .searchbtn{
         background-color: #47a9ff;
         border-radius: 5px;
@@ -361,6 +366,12 @@ section.subscriber-details{
     border-radius: 5px;
     border: 1px solid rgba(115, 115, 115, 0.858); 
 }
+.form-control1:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+
 .subscription-button{
     color: white;
     min-width: 45%;
@@ -481,6 +492,19 @@ background-color:rgb(8, 68, 130);
     border:#47a9ff;
     border-radius: 5px;
     color: white;
+    transition: 0.5s;
+}
+
+a{
+ text-decoration: none;
+}
+
+.email-submit:hover{
+    background-color: #0086fb;
+}
+.email-for-deals{
+    outline: none !important;
+    box-shadow: none;
 }
 .line-line{
     border-top: 1px solid rgb(159, 167, 173);
@@ -515,11 +539,14 @@ p.certified{
 }
 .footer-invisible{
     background-color: rgb(8, 68, 130);
-    color: white;
     font-size: large;
     font-weight: 600;
     display: none;
 
+}
+.footer-invisible a{
+    text-decoration: none;
+    color: white;
 }
 
 
