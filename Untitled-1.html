@@ -11,82 +11,52 @@
     <link rel="stylesheet" href="./stylehotel.css"></link>
 </head>
 <body>
-    <nav class="navd navbar navbar-expand-lg navbar-light px-5">
-        <div class="container-fluid">
-            <div class="brand">
-              Hotels.ng
-            </div>  
-            <div class="bared">
-                <ul class="bar">
-                    <li  class="one">
-                        <a class="nav-link active" aria-current="page" href="#">
-                           <span class="miss">d</span> <img src="./img/whatsapp.png" width="30px">
-                        </a>
-                    </li>
-                      <span class="line"></span>
-                      <li class="two">
-                        <div class="dropdown">
-                            <div class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="./img/892398.png" width="30px"> <span class="currency">$</span>  
-                            </div>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                            </ul>
-                        </div>
-                      </li>
-                      <span class="line2"></span>
-                 
-                  <li class="three" >
-                    <div class="dropdown">
-                        <div class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                          <img src="./img/customer-service.png" width="30px">
-                        </div>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                          <li><a class="dropdown-item" href="#">09133516799</a></li>
-                          <li><a class="dropdown-item" href="#">08055443111</a></li>
-                          <li><a class="dropdown-item" href="#">07089028456</a></li>
-                        </ul>
-                      </div>    
-                  </li>
-                  <span class="line"></span>
-                  <li class="four">
-                    <div class="dropdown">
-                        <div class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                         <img src="./img/round-account-button-with-user-inside.png" width="30px">
-                          <span class="account">account</span>  
-                        </div>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                        </ul>
-                   </li>
-                   <li class="five">      
-                      <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                     <!-- Default dropstart button -->
-                        <span class="btn-group dropstart">
-                         
-                          <span type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="./img/align-justify-solid.svg " width="30px">
-                            
-                            
-                          </span>
-                          <div class="inner dropdown-menu">
-                            
-                           
-                                
-                           
-
-
-                          </div>
-                        </span>              
-                      </div>
-                   </li>
-            </ul>
+     <nav>
+       <div class="row align-items-center">
+         <div class="col-md-2 col-sm-3 col-4 text-center">
+            <span class="brand"> Hotel.ng</span>
+         </div>
+          <div class="col-md-10 col-sm-9 col-8">
+            <div class="nav-items input-group justify-content-end">
+              <div class="nav-service btn-group">
+                <div class="style-nav btn dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                  <img src="./img/customer-service.png" width="30px">
+                </div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
+                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                </ul>
+              </div>
+            
+           
+              <div class="nav-nigeria btn-group">
+                <div class="style-nav btn dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                  <img src="./img/892398.png" width="30px" alt="customer service">
+                </div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
+                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                </ul>
+              </div>
+              
+            
+            
+              <div class="nav-account btn-group">
+                <div class="style-nav btn " type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                  <span class="account">LOGIN</span>
+                </div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
+                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>  
         </div>
-        </div>
- </nav>
+      </nav>   
   <section class="A">
     <div class="row text-center">
       <div class="greet col-md-12">
@@ -211,6 +181,7 @@
       </div> 
     </figure>
   </section>
+  
   <section class="D">
     <div class="row text-center">
       <div class="col-md-12">
@@ -237,7 +208,9 @@
             </a>
               <br>
             <p class="hotel-location">
-              Hotels in Osun
+               <a href="=#">
+                 Hotels in Osun
+                </a>
              <br>
              <span class="state">
                300 hotels
@@ -258,7 +231,9 @@
             </a>
               <br>
             <p class="hotel-location">
-             Hotels in Kwara
+              <a href="=#">
+                 Hotels in Kwara
+              </a>
              <br>
              <span class="state">
                200 hotels
@@ -279,8 +254,10 @@
             </a>
               <br>
             <p class="hotel-location">
-              Hotels in Osun
-             <br>
+              <a href="=#">
+                Hotels in Osun
+              </a>
+                <br>
              <span class="state">
                200 hotels
              </span>
@@ -300,7 +277,9 @@
             </a>
               <br>
             <p class="hotel-location">
-              Hotels in Osun
+              <a href="=#">
+                Hotels in Osun
+              </a>
              <br>
              <span class="state">
                200 hotels
@@ -321,7 +300,9 @@
             </a>
               <br>
             <p class="hotel-location">
-              Hotels in Osun
+              <a href="=#">
+                Hotels in Osun
+              </a>
              <br>
              <span class="state">
                200 hotels
@@ -342,7 +323,9 @@
             </a>   
             <br>
             <p class="hotel-location">
-              Hotels in Osun
+              <a href="=#">
+                Hotels in Osun
+              </a>
              <br>
              <span class="state">
                200 hotels
@@ -506,7 +489,9 @@
     <div class="diff row  gx-3">
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in Abia
+          <a href="=#">
+             Hotels in Abia
+            </a>
           <br>
          <span class="state">
            297 hotels in Abia with over 169 hotel reviews
@@ -515,7 +500,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Abuja
+          <a href="=#">
+            Hotels in Abuja
+          </a>
           <br>
          <span class="state">
            1,142 hotels in Abuja with over 2,426 hotel reviews
@@ -524,7 +511,9 @@
       </div>
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in Adamawa
+          <a href="=#"> 
+            Hotels in Adamawa
+          </a>
           <br>
          <span class="state">
            70 hotels in Adamawa with over 48 hotel reviews
@@ -533,7 +522,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Akwa Ibom
+          <a href="=#"> 
+            Hotels in Akwa Ibom
+          </a>
           <br>
          <span class="state">
            474 hotels in Akwa Ibom with over 300 hotel reviews
@@ -542,7 +533,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Anambra
+          <a href="=#"> 
+            Hotels in Anambra
+           </a>
           <br>
          <span class="state">
            297 hotels in Anambra with over 137 hotel reviews
@@ -551,7 +544,9 @@
       </div>
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in Bauchi
+          <a href="=#">
+             Hotels in Bauchi
+            </a>
           <br>
          <span class="state">
            52 hotels in Bauchi with over 57 hotel reviews
@@ -560,7 +555,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Bayelsa
+          <a href="=#"> 
+            Hotels in Bayelsa 
+          </a>
           <br>
          <span class="state">
            180 hotels in Bayelsa with over 58 hotel reviews
@@ -569,7 +566,9 @@
       </div>
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in Benue
+          <a href="=#"> 
+            Hotels in Benue 
+          </a>
           <br>
          <span class="state">
            296 hotels in Benue with over 38 hotel reviews
@@ -578,7 +577,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Borno
+          <a href="=#"> 
+            Hotels in Borno 
+          </a>
           <br>
          <span class="state">
            24 hotels in Borno with over 11 hotel reviews
@@ -587,7 +588,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Cross River
+          <a href="=#">
+             Hotels in Cross River 
+            </a>
           <br>
          <span class="state">
            365 hotels in Cross River with over 336 hotel reviews
@@ -596,7 +599,9 @@
       </div>
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in Delta
+          <a href="=#"> 
+            Hotels in Delta
+           </a>
           <br>
          <span class="state">
            646 hotels in Delta with over 450 hotel reviews
@@ -605,7 +610,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Ebonyi
+          <a href="=#">
+             Hotels in Ebonyi 
+            </a>
           <br>
          <span class="state">
            99 hotels in Ebonyi with over 25 hotel reviews
@@ -614,7 +621,9 @@
       </div>
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in Edo
+          <a href="=#"> 
+            Hotels in Edo
+           </a>
           <br>
          <span class="state">
            372 hotels in Edo with over 498 hotel reviews
@@ -623,7 +632,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Ekiti
+          <a href="=#"> 
+            Hotels in Ekiti 
+          </a>
           <br>
          <span class="state">
            232 hotels in Ekiti with over 208 hotel reviews
@@ -632,7 +643,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Enugu
+          <a href="=#">
+             Hotels in Enugu
+           </a>
           <br>
          <span class="state">
            357 hotels in Enugu with over 451 hotel reviews
@@ -641,7 +654,9 @@
       </div>
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in FCT
+          <a href="=#"> 
+            Hotels in FCT 
+          </a>
           <br>
          <span class="state">
            176 hotels in FCT with no hotel reviews
@@ -650,7 +665,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Gombe
+          <a href="=#"> 
+            Hotels in Gombe
+          </a>
           <br>
          <span class="state">
            44 hotels in Gombe with over 24 hotel reviews
@@ -659,7 +676,9 @@
       </div>
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in Imo
+          <a href="=#">
+           Hotels in Imo
+          </a>
           <br>
          <span class="state">
            326 hotels in Imo with over 316 hotel reviews
@@ -668,7 +687,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Jigawa
+          <a href="=#"> 
+            Hotels in Jigawa 
+          </a>
           <br>
          <span class="state">
            33 hotels in Jigawa with over 5 hotel reviews
@@ -677,7 +698,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Kaduna
+          <a href="=#"> 
+            Hotels in Kaduna
+          </a>
           <br>
          <span class="state">
            331 hotels in Kaduna with over 258 hotel reviews
@@ -686,7 +709,9 @@
       </div>
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in Kano
+          <a href="=#"> 
+            Hotels in Kano
+          </a>
           <br>
          <span class="state">
            126 hotels in Kano with over 125 hotel reviews
@@ -695,7 +720,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Katsina
+          <a href="=#">
+           Hotels in Katsina 
+          </a>
           <br>
          <span class="state">
            32 hotels in Katsina with over 23 hotel reviews
@@ -704,7 +731,9 @@
       </div>
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in Kebbi
+          <a href="=#">
+             Hotels in Kebbi 
+            </a>
           <br>
          <span class="state">
            27 hotels in Kebbi with over 10 hotel reviews
@@ -713,7 +742,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Kogi
+          <a href="=#"> 
+            Hotels in Kogi
+          </a>
           <br>
          <span class="state">
            264 hotels in Kogi with over 51 hotel reviews
@@ -722,7 +753,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Kwara
+          <a href="=#">
+           Hotels in Kwara 
+          </a>
           <br>
          <span class="state">
            334 hotels in Kwara with over 307 hotel reviews
@@ -731,7 +764,9 @@
       </div>
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in Lagos
+          <a href="=#"> 
+            Hotels in Lagos 
+          </a>
           <br>
          <span class="state">
            3,370 hotels in Lagos with over 8,650 hotel reviews
@@ -740,7 +775,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Nasarawa
+          <a href="=#"> 
+            Hotels in Nasarawa
+          </a>
           <br>
          <span class="state">
            238 hotels in Nasarawa with over 63 hotel reviews
@@ -749,7 +786,9 @@
       </div>
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in Niger
+          <a href="=#">
+           Hotels in Niger
+         </a>
           <br>
          <span class="state">
            113 hotels in Niger with over 58 hotel reviews
@@ -758,7 +797,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Ogun
+          <a href="=#"> 
+            Hotels in Ogun
+          </a>
           <br>
          <span class="state">
            739 hotels in Ogun with over 517 hotel reviews
@@ -767,7 +808,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Ondo
+          <a href="=#"> 
+            Hotels in Ondo
+          </a>
           <br>
          <span class="state">
            256 hotels in Ondo with over 203 hotel reviews
@@ -776,7 +819,9 @@
       </div>
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in Osun
+          <a href="=#"> 
+            Hotels in Osun
+          </a>
           <br>
          <span class="state">
            323 hotels in Osun with over 268 hotel reviews
@@ -785,7 +830,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Oyo
+          <a href="=#">
+           Hotels in Oyo
+          </a>
           <br>
          <span class="state">
            646 hotels in Oyo with over 681 hotel reviews
@@ -794,7 +841,9 @@
       </div>
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in Plateau
+          <a href="=#"> 
+            Hotels in Plateau
+          </a>
           <br>
          <span class="state">
            285 hotels in Plateau with over 142 hotel reviews
@@ -803,7 +852,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Rivers
+          <a href="=#"> 
+            Hotels in Rivers
+          </a>
           <br>
          <span class="state">
            524 hotels in Rivers with over 595 hotel reviews
@@ -812,7 +863,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Sokoto
+          <a href="=#"> 
+            Hotels in Sokoto
+          </a>
           <br>
          <span class="state">
            21 hotels in Sokoto with over 51 hotel reviews
@@ -821,7 +874,9 @@
       </div>
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in Taraba
+          <a href="=#">
+           Hotels in Taraba
+          </a>
           <br>
          <span class="state">
            97 hotels in Taraba with over 6 hotel reviews
@@ -830,7 +885,9 @@
       </div>
       <div class="col-md-2">
         <p class="suggestion">
-          Hotels in Yobe
+          <a href="=#"> 
+            Hotels in Yobe
+          </a>
           <br>
          <span class="state">
            11 hotels in Yobe with no hotel reviews
@@ -839,7 +896,9 @@
       </div>
       <div class="col-md-3">
         <p class="suggestion">
-          Hotels in Zamfara
+          <a href="=#">
+            Hotels in Zamfara
+          </a>
           <br>
          <span class="state">
            28 hotels in Zamfara with over 10 hotel reviews
@@ -987,12 +1046,14 @@
        </p>
     </div>
     <div class="col-lg-4 col-md-5">
-      <div class="input-group justify-content-start">
-       <input type="email" class="email-for-deals" id="enter-email" placeholder="enter email address">
-         <button type="submit" class="email-submit">
-           unlock
-        </button>
-      </div>
+      <form action="#">
+        <div class="input-group justify-content-start">
+          <input type="email" class="email-for-deals" id="enter-email" placeholder="enter email address">
+            <button type="submit" class="email-submit">
+              unlock
+           </button>
+         </div>
+      </form>
     </div> 
    </div>
   </section>
@@ -1169,6 +1230,9 @@
              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
             </svg>
           </a>  
+          <a href="#" >
+            <img src="./img/whatsapp.png" width="21px">
+          </a>
        </p>
       </div>
       <div class="col-lg-5 col-md-4 text-end">
